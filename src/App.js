@@ -1,6 +1,10 @@
+import NotesList from './components/NotesList';
+
 const App = () =>{
   return (
-    <p>Helloo React!!!</p>
+    <div className='container'>
+      <NotesList />
+    </div>
   )
 }
 
